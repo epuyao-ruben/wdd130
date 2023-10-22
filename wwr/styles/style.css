@@ -5,9 +5,9 @@
     margin: 0 auto;
 }
 nav a {
-    text-align: center;
-    color: white;
     text-decoration: none;
+    color: white;
+    text-align: center;
     padding: 35px;
 }
 body {
@@ -119,12 +119,16 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }  
-.rivers-card, .camping-card, .rapids-card {
+.rivers-card, 
+.camping-card, 
+.rapids-card {
     margin: 200px 0;
 }  
 
-.card-img {
+.card-img 
+{
     border: 10px solid #8f754f;
+
 }
 main section img {
     box-sizing: border-box;
