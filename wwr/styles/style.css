@@ -212,6 +212,42 @@ main section img {
     grid-template-columns: repeat(10, 1fr);
 }
 
+/******************************************************************************************************/
+.rivers-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.rivers-title {
+    grid-column: 2/10;
+    grid-row: 1/2;
+    color: #15384d;
+    font-family: "DM Serif Display", Georgia, 'Times New Roman';
+    font-size: 2em; 
+    text-align: center;    
+}
+
+.utah-card {
+    margin: 50px 0;
+    grid-column: 2/10;
+    grid-row: 2/3
+}  
+
+.idaho-card {
+    margin: 50px 0;
+    grid-column: 2/10;
+    grid-row: 3/4
+}  
+
+.arizona-card {
+    margin: 50px 0;
+    grid-column: 2/10;
+    grid-row: 4/5
+}
+
+
+/******************************************************************************************************/
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
