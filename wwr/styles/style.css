@@ -245,6 +245,14 @@ main section img {
     grid-row: 4/5
 }
 
+main section p {
+    text-align: justify;
+}
+
+main section h2 {
+    margin-top: 25px;
+}
+
 
 /******************************************************************************************************/
 
