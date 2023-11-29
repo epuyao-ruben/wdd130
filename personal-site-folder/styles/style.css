@@ -20,10 +20,7 @@ body {
 
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
     font-family: "Montserrat", Tahoma, sans-serif;
     font-weight: 700;
 }
@@ -46,11 +43,6 @@ h3 {
     font-size: 1.5em;
 }
 
-h4 {
-    font-size: 1.2em;
-    color: #175C98;
-    text-align: center;
-}
 
 p {
     padding: 0;
@@ -76,7 +68,7 @@ main section img {
 
 *****************************************************************/
 
-.content {
+#content {
 
     max-width: 1200px;
 
@@ -174,6 +166,13 @@ nav a:hover {
     background-color: #928779;
 }
 
+.caption {
+    font-size: 1.2em;
+    color: #175C98;
+    text-align: center;
+    margin: 30px 0;
+}
+
 .tech-skills {
     display: grid;
     grid-template-columns: 16% 16% 16% 16% 16%;
@@ -188,10 +187,11 @@ nav a:hover {
 }
 
 .skill {
-    text-align: center;
-    margin: auto;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .tecnologies {
     display: grid;
@@ -207,10 +207,12 @@ nav a:hover {
 }
 
 .tecnology {
-    text-align: center;
-    margin: auto;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+
 
 .projects {
     display: grid;
@@ -284,9 +286,12 @@ footer a:hover {
         display: block;
         height: auto;
     }
-    nav, footer {
+
+    nav,
+    footer {
         flex-direction: column;
     }
+
     nav a {
         display: block;
         padding: 15px;
@@ -295,6 +300,7 @@ footer a:hover {
     h4 {
         font-size: 0.5em;
     }
+
     main section h2 {
         grid-column: 2/3;
         text-align: center;
@@ -308,12 +314,14 @@ footer a:hover {
         row-gap: 0;
     }
 
-    .project-img, .project { 
+    .project-img,
+    .project {
         grid-column: 2/3;
         margin-top: 10px;
         width: 100%;
 
     }
+
     .laureles-img {
         margin-top: 150px;
     }
@@ -321,12 +329,12 @@ footer a:hover {
     footer {
         margin-top: 100px;
     }
+
     footer p {
         font-size: 1em;
     }
+
     .button-box {
-    display: grid
+        display: grid
     }
 }
-
-
