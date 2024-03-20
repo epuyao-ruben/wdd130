@@ -364,7 +364,8 @@ footer a:hover {
 .personal-skills {
     grid-column: 2/-2;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* cambio para la tarea de GS170, el 3 debe ser 4 */
+    grid-template-columns: repeat(3, 1fr);                  
     gap: 10px;
 }
 
